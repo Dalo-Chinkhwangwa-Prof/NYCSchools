@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewClick"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_blue"
+    >
+
+    <TextView
+        android:id="@+id/positionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_grey"
+        android:text="#"
+        />
+
+    <TextView
+        android:id="@+id/schoolName"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:textSize="25sp"
+        android:background="@drawable/rounded_white"
+        android:layout_gravity="center"
+        android:text="School Name"
+        />
+
+</LinearLayout>
